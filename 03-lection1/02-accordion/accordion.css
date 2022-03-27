@@ -19,10 +19,11 @@
 
 .accordion__header {
   display: block;
+  list-style: none;
   color: var(--black);
 }
 
-accordion__header::webkit-details-marker {
+.accordion__header::webkit-details-marker {
   display: none
 }
 
