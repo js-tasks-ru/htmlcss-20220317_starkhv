@@ -10,7 +10,7 @@
   padding: 32px 25px 30px;
 }
 
-.card_title {
+.card__title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
