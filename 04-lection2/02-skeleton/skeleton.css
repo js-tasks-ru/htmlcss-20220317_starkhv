@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 579px;
   background: var(--white);
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
@@ -28,25 +27,19 @@
 .skeleton__wraper {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 8px;
 }
 
-.skeleton__title {
-  width: 172px;
+.skeleton__line {
   height: 20px;
   background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    
 }
 
-.skeleton__caption {
-  width: 257px;
-  height: 20px;
-  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    
+.skeleton__line_half-size {
+  width: 50%;
 }
 
-.skeleton__text {
-  height: 20px;
-  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%)
-    
+.skeleton__line_third-size {
+  width: calc(100% / 3);
 }
