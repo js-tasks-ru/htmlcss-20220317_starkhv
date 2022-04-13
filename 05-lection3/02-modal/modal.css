@@ -34,8 +34,9 @@
     top: 0;
     transform: translate(-15px, 15px);
     cursor: pointer;
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
+    color: var(--grey-4);
 }
 
 .modal__text {
