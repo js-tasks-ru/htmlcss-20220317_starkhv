@@ -5,7 +5,33 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
-    <body>
-
+    <body style="padding: 30px;">
+        <label class="radio">
+            <input type="radio" class="radio__input" name="name" value="value1">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__icon"></div>
+                </div>
+                <div class="radio__caption">Default</div>  
+            </div>
+        </label>
+        <label class="radio">
+            <input type="radio" class="radio__input" checked name="name" value="value2">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__icon"></div>
+                </div>
+                <div class="radio__caption">Default</div>  
+            </div>
+        </label>
+        <label class="radio">
+            <input type="radio" class="radio__input" disabled name="name" value="value3">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__icon"></div>
+                </div>
+                <div class="radio__caption">Default</div>  
+            </div>
+        </label>
     </body>
 </html>
