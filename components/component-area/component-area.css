@@ -1,6 +1,29 @@
 .component-area {
     width: 100%;
     background: var(--white);
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, .05);
-    border-radius: 12px;
+    padding: 32px 0;
+}
+
+.component-area__title {
+    margin: 0;
+    font-family: var(--alternate-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+}
+
+
+@media screen and (min-width: 768px) {
+    .component-area {
+        padding: 32px 48px;
+        box-shadow: 0px 2px 4px rgba(33, 36, 41, .05);
+        border-radius: 12px;
+    }
+
+    .component-area__title {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
