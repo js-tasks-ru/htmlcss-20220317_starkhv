@@ -1,11 +1,24 @@
 .preview {
     background: #F9FAFC;
-    padding: 68px 0;
+    padding: 24px 0;
     flex-grow: 1;
 }
 
 .preview__inner {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+    grid-gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .preview {
+        padding: 68px 0;
+    }
+
+    .preview__inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 30px;
+    }
+  
 }
